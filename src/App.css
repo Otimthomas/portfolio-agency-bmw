@@ -1,38 +1,92 @@
-.App {
+#header {
+  color: blue;
+  background-image: url(images/bmw-6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  height: 90vh;
+}
+
+.header-logo img{
+  width: 65px;
+  /* background: #fff; */
+}
+
+.footer {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footer img {
+  width: 65px;
+  /* display: inline-block; */
+  margin-bottom: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.gallery {
+  margin-top: 60px;
+  min-height: 800px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about {
+  background-color: #202020;
+}
+
+.about p{
+    padding: 0 200px 0 200px;
+    color: gray;
+    line-height: 2;
+    font-size: 1.2rem;
+}
+
+.heading-1 {
+  font-size: 1rem;
+  color: #cc9f4a;
+  letter-spacing: .5rem;
+}
+
+.heading-2 {
+  font-size: 4rem;
+  font-weight: bold;
+  transition: all .3s;
+  letter-spacing: .5rem;
+}
+
+.heading-2__light {
+  color: #fff;
+}
+
+.heading-2:hover {
+  letter-spacing: 1.2rem;
+}
+
+.clients {
+  height: 85vh;
+  background-image: url(images/bmw-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.footer {
+  height: 40vh;
+  background: #000;
+}
+
+/* .social-icons {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+} */
+
+.social-icons svg {
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+  color: rgb(231, 229, 229);
+  transition: all .2s;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.social-icons svg:hover {
+  color: #cc9f4a;
 }
